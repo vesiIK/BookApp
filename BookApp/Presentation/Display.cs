@@ -129,7 +129,7 @@ namespace BookApp.Presentation
         
         private void PrintByDate()
         {
-            Console.WriteLine("Entire date to search");
+            Console.WriteLine("Entire date to search (year)");
             string date = Console.ReadLine();
             var book = bookServes.GetByDate(date);
             if (book != null)
